@@ -2,11 +2,12 @@ import {
     FormControlLabel,
     Radio,
     RadioGroup,
-    RadioGroupProps,
 } from "@mui/material";
-import { Controller, FieldPath, FieldValues } from "react-hook-form";
-import { optionType } from "../../pages/ExpenseTracker";
-import { FieldWrapperProps } from "./Types";
+import type { RadioGroupProps } from "@mui/material";
+import { Controller } from "react-hook-form";
+import type { FieldPath, FieldValues } from "react-hook-form";
+import type { optionType } from "../../components/ExpenseTracker";
+import type { FieldWrapperProps } from "./Types";
 
 const RadioButtonWrapper = <
   TFieldValues extends FieldValues,

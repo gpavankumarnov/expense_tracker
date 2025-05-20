@@ -1,6 +1,4 @@
-import { ControllerProps } from 'react-hook-form';
-import { FieldValues } from './../../../node_modules/react-hook-form/dist/types/fields.d';
-import { FieldPath } from './../../../node_modules/react-hook-form/dist/types/path/eager.d';
+import type { ControllerProps, FieldValues, FieldPath } from 'react-hook-form';
 
 //Pick<type, keys>
 //type -> 
